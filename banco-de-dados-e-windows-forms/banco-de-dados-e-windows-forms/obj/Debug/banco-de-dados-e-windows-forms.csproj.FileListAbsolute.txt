@@ -1,0 +1,6 @@
+C:\Users\105013\Documents\GitHub\lista-de-banco-de-dados-e-interface-grafica\banco-de-dados-e-windows-forms\banco-de-dados-e-windows-forms\bin\Debug\banco-de-dados-e-windows-forms.exe.config
+C:\Users\105013\Documents\GitHub\lista-de-banco-de-dados-e-interface-grafica\banco-de-dados-e-windows-forms\banco-de-dados-e-windows-forms\obj\Debug\banco-de-dados-e-windows-forms.csprojResolveAssemblyReference.cache
+C:\Users\105013\Documents\GitHub\lista-de-banco-de-dados-e-interface-grafica\banco-de-dados-e-windows-forms\banco-de-dados-e-windows-forms\obj\Debug\banco_de_dados_e_windows_forms.CadastroAluno.resources
+C:\Users\105013\Documents\GitHub\lista-de-banco-de-dados-e-interface-grafica\banco-de-dados-e-windows-forms\banco-de-dados-e-windows-forms\obj\Debug\banco_de_dados_e_windows_forms.ListaAluno.resources
+C:\Users\105013\Documents\GitHub\lista-de-banco-de-dados-e-interface-grafica\banco-de-dados-e-windows-forms\banco-de-dados-e-windows-forms\obj\Debug\banco_de_dados_e_windows_forms.Properties.Resources.resources
+C:\Users\105013\Documents\GitHub\lista-de-banco-de-dados-e-interface-grafica\banco-de-dados-e-windows-forms\banco-de-dados-e-windows-forms\obj\Debug\banco-de-dados-e-windows-forms.csproj.GenerateResource.Cache
