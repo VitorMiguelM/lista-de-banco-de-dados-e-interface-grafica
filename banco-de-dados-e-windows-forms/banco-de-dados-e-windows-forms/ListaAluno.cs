@@ -16,5 +16,11 @@ namespace banco_de_dados_e_windows_forms
         {
             InitializeComponent();
         }
+
+        private void btnCadastrar_Click(object sender, EventArgs e)
+        {
+            CadastroAluno cadastroAluno = new CadastroAluno();
+            cadastroAluno.ShowDialog();
+        }
     }
 }

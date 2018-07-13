@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace banco_de_dados_e_windows_forms
 {
-    class Aluno
+    public class Aluno
     {
         public string Nome { get; set; }
         public string CodigoDeMatricula { get; set;}
@@ -14,5 +14,7 @@ namespace banco_de_dados_e_windows_forms
         public double Nota2 { get; set; }
         public double Nota3 { get; set; }
         public byte Frequencia { get; set; }
+        public int Id { get; set; }
+       
     }
 }

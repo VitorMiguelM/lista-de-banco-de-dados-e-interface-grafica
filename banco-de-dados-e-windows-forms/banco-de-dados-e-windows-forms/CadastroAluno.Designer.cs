@@ -41,6 +41,8 @@
             this.txtFrequencia = new System.Windows.Forms.TextBox();
             this.txtNome = new System.Windows.Forms.TextBox();
             this.txtNota3 = new System.Windows.Forms.TextBox();
+            this.txtId = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnSalvar
@@ -57,7 +59,7 @@
             // 
             // txtCodigoDaMatricula
             // 
-            this.txtCodigoDaMatricula.Location = new System.Drawing.Point(181, 37);
+            this.txtCodigoDaMatricula.Location = new System.Drawing.Point(181, 82);
             this.txtCodigoDaMatricula.Name = "txtCodigoDaMatricula";
             this.txtCodigoDaMatricula.Size = new System.Drawing.Size(186, 20);
             this.txtCodigoDaMatricula.TabIndex = 1;
@@ -66,7 +68,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(106, 86);
+            this.label1.Location = new System.Drawing.Point(106, 120);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(53, 16);
             this.label1.TabIndex = 2;
@@ -76,17 +78,17 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(12, 41);
+            this.label2.Location = new System.Drawing.Point(12, 83);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(151, 16);
             this.label2.TabIndex = 3;
-            this.label2.Text = "Codigo da matricula:";
+            this.label2.Text = "Código da matricula:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(102, 266);
+            this.label3.Location = new System.Drawing.Point(106, 266);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(57, 16);
             this.label3.TabIndex = 4;
@@ -96,7 +98,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(102, 223);
+            this.label4.Location = new System.Drawing.Point(106, 227);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(57, 16);
             this.label4.TabIndex = 5;
@@ -106,7 +108,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(102, 177);
+            this.label5.Location = new System.Drawing.Point(106, 192);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(57, 16);
             this.label5.TabIndex = 6;
@@ -116,7 +118,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(73, 136);
+            this.label6.Location = new System.Drawing.Point(73, 156);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(90, 16);
             this.label6.TabIndex = 7;
@@ -124,28 +126,28 @@
             // 
             // txtNota2
             // 
-            this.txtNota2.Location = new System.Drawing.Point(181, 219);
+            this.txtNota2.Location = new System.Drawing.Point(181, 223);
             this.txtNota2.Name = "txtNota2";
             this.txtNota2.Size = new System.Drawing.Size(186, 20);
             this.txtNota2.TabIndex = 8;
             // 
             // txtNota1
             // 
-            this.txtNota1.Location = new System.Drawing.Point(181, 177);
+            this.txtNota1.Location = new System.Drawing.Point(181, 188);
             this.txtNota1.Name = "txtNota1";
             this.txtNota1.Size = new System.Drawing.Size(186, 20);
             this.txtNota1.TabIndex = 9;
             // 
             // txtFrequencia
             // 
-            this.txtFrequencia.Location = new System.Drawing.Point(181, 135);
+            this.txtFrequencia.Location = new System.Drawing.Point(181, 152);
             this.txtFrequencia.Name = "txtFrequencia";
             this.txtFrequencia.Size = new System.Drawing.Size(186, 20);
             this.txtFrequencia.TabIndex = 10;
             // 
             // txtNome
             // 
-            this.txtNome.Location = new System.Drawing.Point(181, 85);
+            this.txtNome.Location = new System.Drawing.Point(181, 116);
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(186, 20);
             this.txtNome.TabIndex = 11;
@@ -157,12 +159,32 @@
             this.txtNota3.Size = new System.Drawing.Size(186, 20);
             this.txtNota3.TabIndex = 12;
             // 
+            // txtId
+            // 
+            this.txtId.Location = new System.Drawing.Point(181, 40);
+            this.txtId.Name = "txtId";
+            this.txtId.Size = new System.Drawing.Size(186, 20);
+            this.txtId.TabIndex = 13;
+            this.txtId.Leave += new System.EventHandler(this.txtId_Leave);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(134, 41);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(25, 16);
+            this.label7.TabIndex = 14;
+            this.label7.Text = "Id:";
+            // 
             // CadastroAluno
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(404, 362);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.txtId);
             this.Controls.Add(this.txtNota3);
             this.Controls.Add(this.txtNome);
             this.Controls.Add(this.txtFrequencia);
@@ -198,5 +220,7 @@
         private System.Windows.Forms.TextBox txtFrequencia;
         private System.Windows.Forms.TextBox txtNome;
         private System.Windows.Forms.TextBox txtNota3;
+        private System.Windows.Forms.TextBox txtId;
+        private System.Windows.Forms.Label label7;
     }
 }
